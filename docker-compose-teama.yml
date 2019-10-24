@@ -1,0 +1,8 @@
+version: "3.3"
+services:
+  teama-simple:
+    build: ./teamA-simple
+  teama-complex:
+    build: ./teamA-complex
+    ports:
+      - "8080:80"
